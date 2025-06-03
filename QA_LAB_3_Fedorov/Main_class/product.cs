@@ -9,7 +9,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 namespace lab_6_5_sem_c_sharp
 {
     [Serializable]
-    class product
+    internal class product
     {
         protected double cost;
         protected double weight;
